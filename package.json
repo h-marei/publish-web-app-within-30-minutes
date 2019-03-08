@@ -1,0 +1,20 @@
+{
+  "name": "publish-web-app-within-30-minutes",
+  "version": "1.0.0",
+  "description": "30分以内にWebのアプリケーションを公開する！",
+  "author": "h-marei",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
