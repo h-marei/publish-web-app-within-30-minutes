@@ -15,15 +15,6 @@
 <script>
 import Logo from '~/components/Logo.vue'
 
-var pkBaseURL = (("https:" == document.location.protocol) ? "https://apojaws.localhost/" : "http://apojaws.localhost/");
-document.write(unescape("%3Cscript src='" + pkBaseURL + "js/piwik/piwik.js' type='text/javascript'%3E%3C/script%3E"));
-try {
-  var piwikTracker = Piwik.getTracker(pkBaseURL + "access_logs/conversion", "e53d9c58d9fe28c6456e25f7a29be310");
-  piwikTracker.trackPageView(document.title, 'div=部署&user=会員ID&item=物件ID&cv=反響種別&rel=反響ID');
-  piwikTracker.enableLinkTracking();
-} catch( err ) {}
-
-
 export default {
   components: {
     Logo
