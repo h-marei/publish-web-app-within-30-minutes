@@ -19,9 +19,6 @@
           target="_blank"
           class="button--grey"
         >GitHub</a>
-        <nuxt-link to="/conversion">
-          <div class="button--grey">コンバージョン</div>
-        </nuxt-link>
       </div>
     </div>
   </section>
